@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="VCard2Sim.cpp" />
+    <ClCompile Include="VCardParser.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <Filter>pch</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="encoding_utils.h" />
+    <ClInclude Include="error_handler.h" />
+    <ClInclude Include="Sim.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="VCard.h" />
+    <ClInclude Include="stdafx.h">
+      <Filter>pch</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="pch">
+      <UniqueIdentifier>{565d359d-6331-4c2d-adb1-1d581a43fb76}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

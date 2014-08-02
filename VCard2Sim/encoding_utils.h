@@ -74,6 +74,7 @@ std::wstring LoadUtf8FileToString(const std::wstring& filename)
 	return buffer;
 }
 //-----------------------------------------------------------------------------
+// http://www.codeproject.com/Articles/38242/Reading-UTF-with-C-streams
 void ReadUtf8File(const std::wstring &fileName, std::wstring &result)
 {
 	//const std::locale empty_locale = std::locale::empty();

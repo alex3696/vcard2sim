@@ -23,8 +23,8 @@ int _tmain(int argc, _TCHAR* argv[])
 	std::vector<vcard::Contact> contact;
 	
 	std::wifstream in;
-	in.open(fileName, std::wifstream::in);
 	in.imbue(std::locale(std::locale::empty(), new std::codecvt_utf8<wchar_t>));
+	in.open(fileName, std::wifstream::in);
 	if (in.is_open())
 	{
 		vcard::Parse(in, contact);
